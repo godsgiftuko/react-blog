@@ -18,7 +18,7 @@ const parsePageTitle = {
 }
 
 const parseKnowMoreSnippet = {
-  title: 'What to know more about metrics',
+  title: 'Want to know more about metrics?',
   subtitle: 'learn who we are and what drives us.'
 }
 

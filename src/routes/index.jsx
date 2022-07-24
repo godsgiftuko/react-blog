@@ -5,6 +5,7 @@ import ComingSoon from '../pages/ComingSoon';
 import Blog from '../pages/Blog';
 import About from '../pages/About';
 import TrendingRepos from '../pages/TrendingRepos';
+import NotFound from '../pages/NotFound';
 
 
 export default function Routes_() {
@@ -17,6 +18,7 @@ export default function Routes_() {
         { path: 'blog', element: <MainLayout children={<Blog />} /> },
         { path: 'about', element: <MainLayout children={<About />} /> },
         { path: 'github', element: <MainLayout children={<TrendingRepos />} /> },
+        { path: '*', element: <NotFound /> },
 	]); 
 
     return routes;
