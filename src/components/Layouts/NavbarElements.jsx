@@ -7,7 +7,7 @@ const { size, weight } = typography;
 const footer = 'footer';
 
 export const Nav = styled.nav`
-  background: #000;
+  background: ${ prop => prop.noBackground ? 'transparent' : '#000' };
   height: 100px;
   display: flex;
   justify-content: space-between;

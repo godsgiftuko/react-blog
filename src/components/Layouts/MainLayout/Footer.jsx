@@ -37,7 +37,7 @@ const SocialLinks = () => (
 const Footer_ = () => {
   return (
     <Footer>
-      <Nav postion="footer">
+      <Nav postion="footer" noBackground>
         <SocialLinks />
       </Nav>
       <FooterList>
