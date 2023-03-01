@@ -13,11 +13,12 @@ export default function NotFound() {
           sx={{  display: 'flex',
           	justifyContent: 'center',
           	alignItems: 'center',
-          	height: '100vh'
+          	height: '100vh',
+            flexDirection: 'column',
+            gap: '10px'
       		}}
           >
               <h1>God'sgift Uko</h1>
-              <br>
               <a style="color: #656665;" href="mailto:godsgiftuko@gmail.com?subject=Mail from Peddle React App">godsgiftuko@gmail.com</a>
           </Container>
     	</Page>
