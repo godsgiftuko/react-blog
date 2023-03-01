@@ -8,7 +8,7 @@ import Page from '../components/Page';
 export default function NotFound() {
 
     return (
-      <Page title="Not Found" >
+      <Page title="Contact me" >
           <Container
           sx={{  display: 'flex',
           	justifyContent: 'center',
@@ -16,7 +16,8 @@ export default function NotFound() {
           	height: '100vh'
       		}}
           >
-              <h1>Not Found</h1>
+              <h1>God'sgift Uko</h1>
+                <a href="mailto:godsgiftuko@gmail.com?subject=Mail from Peddle React App">godsgiftuko@gmail.com</a>
           </Container>
     	</Page>
     );
