@@ -17,7 +17,8 @@ export default function NotFound() {
       		}}
           >
               <h1>God'sgift Uko</h1>
-                <a href="mailto:godsgiftuko@gmail.com?subject=Mail from Peddle React App">godsgiftuko@gmail.com</a>
+              <br>
+              <a style="color: #656665;" href="mailto:godsgiftuko@gmail.com?subject=Mail from Peddle React App">godsgiftuko@gmail.com</a>
           </Container>
     	</Page>
     );
