@@ -14,8 +14,7 @@ export default function NotFound() {
           	justifyContent: 'center',
           	alignItems: 'center',
           	height: '100vh',
-            flexDirection: 'column',
-            gap: '10px'
+            flexDirection: 'column'
       		}}
           >
               <h1>God'sgift Uko</h1>
